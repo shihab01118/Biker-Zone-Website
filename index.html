@@ -160,7 +160,7 @@
     <main class="md:container mx-auto">
         <!-- featured section -->
         <section class="my-24">
-            <h3 class="text-5xl font-semibold text-center">Fetured Bikes In This Year</h3>
+            <h3 class="text-4xl md:text-5xl  font-semibold text-center">Fetured Bikes In This Year</h3>
             <h6 class="text-primary-color font-semibold text-sm text-center mt-2 mb-12">Best bike collection</h6>
             <div class="flex flex-col md:flex-row justify-center gap-7 md:px-5 lg:px-0">
                 <div class="w-4/5 m-auto lg:w-auto">
@@ -177,7 +177,7 @@
 
         <!-- latest section -->
         <section class="my-24">
-            <h3 class="text-5xl font-semibold text-center">Latest News</h3>
+            <h3 class="text-4xl md:text-5xl font-semibold text-center">Latest News</h3>
             <!-- latest bikes container -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-12 gap-8 px-4  md:px-12 lg:p-0">
                 <!-- latest 1 -->
@@ -227,7 +227,7 @@
 
         <!-- Client section -->
         <section class="my-24">
-            <h3 class="text-5xl font-semibold text-center">Happy <span class="text-primary-color">Clients Says</span>
+            <h3 class="text-4xl md:text-5xl font-semibold text-center">Happy <span class="text-primary-color">Clients Says</span>
             </h3>
             <!-- clients container -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-12 gap-8 px-4  md:px-12 lg:p-0">
@@ -287,38 +287,53 @@
 
         <!-- faq section -->
         <section class="my-24">
-            <h3 class="text-5xl font-semibold text-center">Frequently Asked <span
+            <h3 class="text-4xl md:text-5xl font-semibold text-center">Frequently Asked <span
                     class="text-primary-color">Questions</span></h3>
             <!-- faq container -->
-            <div>
-                <img src="images/others/faq.png" alt="faq">
-            </div>
-            <div>
-                <div class="collapse collapse-arrow bg-base-200">
-                    <input type="radio" name="my-accordion-2" checked="checked" />
-                    <div class="collapse-title text-xl font-medium">
-                        <Translate text="Click to open this one and close others" />
-                    </div>
-                    <div class="collapse-content">
-                        <p>hello</p>
-                    </div>
-                </div>
-                <div class="collapse collapse-arrow bg-base-200">
-                    <input type="radio" name="my-accordion-2" />
-                    <div class="collapse-title text-xl font-medium">
-                        <Translate text="Click to open this one and close others" />
-                    </div>
-                    <div class="collapse-content">
-                        <p>hello</p>
-                    </div>
-                </div>
-                <div class="collapse collapse-arrow bg-base-200">
-                    <input type="radio" name="my-accordion-2" />
-                    <div class="collapse-title text-xl font-medium">
-                        <Translate text="Click to open this one and close others" />
-                    </div>
-                    <div class="collapse-content">
-                        <p>hello</p>
+            <div class="hero mt-6 md:mt-12 ">
+                <div class="hero-content flex-col lg:flex-row lg:gap-24 px-4  md:px-12 lg:p-0">
+                    <img src="images/others/faq.png" class="max-w-sm rounded-lg shadow-2xl" />
+                    <div class="shadow-lg">
+                        <!-- first ques -->
+                        <div class="collapse collapse-arrow ">
+                            <input type="radio" name="my-accordion-2" checked="checked" />
+                            <div class="collapse-title text-xl font-medium">
+                                <p class="text-[#383838] text-xl font-medium leading-7">What are the most important things I should know about riding a bike?</p>
+                            </div>
+                            <div class="collapse-content">
+                                <p class="text-[#7E848C] text-base leading-7">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                        <!-- second ques -->
+                        <div class="collapse collapse-arrow">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">
+                                <p class="text-[#383838] text-xl font-medium leading-7">How can I tell if my helmet is old and I need a  new one?</p>
+                            </div>
+                            <div class="collapse-content">
+                                <p class="text-[#7E848C] text-base leading-7">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                        <!-- third ques -->
+                        <div class="collapse collapse-arrow">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">
+                                <p class="text-[#383838] text-xl font-medium leading-7">My bike has been in storage is it safe to ride?</p>
+                            </div>
+                            <div class="collapse-content">
+                                <p class="text-[#7E848C] text-base leading-7">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
+                        <!-- fourth ques -->
+                        <div class="collapse collapse-arrow">
+                            <input type="radio" name="my-accordion-2" />
+                            <div class="collapse-title text-xl font-medium">
+                                <p class="text-[#383838] text-xl font-medium leading-7">What rules should I follow when riding my bike?</p>
+                            </div>
+                            <div class="collapse-content">
+                                <p class="text-[#7E848C] text-base leading-7">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
